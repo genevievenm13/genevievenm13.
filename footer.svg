@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110" width="1200" height="110" role="img" aria-label="Decorative footer: parallel process lines with flowing streams">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#112630"/>
+      <stop offset="1" stop-color="#0a1418"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1d3a44"/>
+    </pattern>
+    <style>
+      .p { fill: none; stroke: #3b5964; stroke-width: 3; stroke-linecap: round; }
+      .f { fill: none; stroke-width: 2; stroke-linecap: round; stroke-dasharray: 6 14; }
+    </style>
+  </defs>
+  <rect width="1200" height="110" fill="url(#bg)"/>
+  <rect width="1200" height="110" fill="url(#grid)"/>
+  <path class="p" d="M0 34 H380 C 430 34, 440 56, 490 56 H1200"/>
+  <path class="p" d="M0 56 H300 C 350 56, 360 78, 410 78 H760 C 810 78, 820 56, 870 56 H1200"/>
+  <path class="p" d="M0 78 H560 C 610 78, 620 34, 670 34 H1200"/>
+  <path class="f" stroke="#e08a4b" d="M0 34 H380 C 430 34, 440 56, 490 56 H1200"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+  <path class="f" stroke="#8fd3d1" d="M0 56 H300 C 350 56, 360 78, 410 78 H760 C 810 78, 820 56, 870 56 H1200"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.6s" repeatCount="indefinite"/></path>
+  <path class="f" stroke="#e08a4b" stroke-opacity="0.6" d="M0 78 H560 C 610 78, 620 34, 670 34 H1200"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="2s" repeatCount="indefinite"/></path>
+</svg>

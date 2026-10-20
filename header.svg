@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Genevieve Morales, Chemical Engineering at UC Berkeley. Animated process flow diagram: feed, pump, stirred reactor, heat exchanger, distillation column, and a conversion trend display.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1418"/>
+      <stop offset="1" stop-color="#112630"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#1d3a44"/>
+    </pattern>
+    <linearGradient id="liquid" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e08a4b" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#9a4f22" stop-opacity="0.9"/>
+    </linearGradient>
+    <clipPath id="vessel"><rect x="262" y="250" width="76" height="110" rx="22"/></clipPath>
+    <clipPath id="col"><rect x="585" y="236" width="50" height="140" rx="20"/></clipPath>
+    <style>
+      .t { font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+      .m { font-family: ui-monospace, "SFMono-Regular", Menlo, Consolas, "Liberation Mono", monospace; }
+      .pipe { fill: none; stroke: #3b5964; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .flow { fill: none; stroke: #e08a4b; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 6 14; }
+      .eq { fill: #0f1f26; stroke: #8fd3d1; stroke-width: 2; }
+      .tag { fill: #8fd3d1; font-size: 11px; letter-spacing: 0.08em; }
+      .sub { fill: #6f8f95; font-size: 10px; letter-spacing: 0.08em; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- title -->
+  <text x="54" y="118" class="t" font-size="62" font-weight="700" fill="#eef4f3" letter-spacing="-0.5">Genevieve Morales</text>
+  <text x="56" y="160" class="t" font-size="21" fill="#a9c0c0">Chemical Engineering @ UC Berkeley · Materials Science &amp; Technology</text>
+  <text x="56" y="194" class="m" font-size="13" fill="#e08a4b" letter-spacing="0.08em">REACTION ENGINEERING  ·  PROCESS SIMULATION  ·  LABORATORY RESEARCH</text>
+
+  <!-- PIPES (base) -->
+  <path class="pipe" d="M40 330 H132"/>
+  <path class="pipe" d="M168 330 H228 V300 H262"/>
+  <path class="pipe" d="M338 345 H422"/>
+  <path class="pipe" d="M478 345 H556 V320 H585"/>
+  <path class="pipe" d="M610 236 V222 H712 V300 H798"/>
+  <path class="pipe" d="M610 376 V388 H740"/>
+  <!-- PIPES (moving flow) -->
+  <g>
+    <path class="flow" d="M40 330 H132"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M168 330 H228 V300 H262"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M338 345 H422"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M478 345 H556 V320 H585"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M610 236 V222 H712 V300 H798" stroke="#8fd3d1"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+    <path class="flow" d="M610 376 V388 H740"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.6s" repeatCount="indefinite"/></path>
+  </g>
+  <path d="M740 382 L752 388 L740 394 Z" fill="#3b5964"/>
+
+  <!-- P-101 pump -->
+  <circle cx="150" cy="330" r="18" class="eq"/>
+  <path d="M143 320 L161 330 L143 340 Z" fill="#8fd3d1"/>
+  <text x="150" y="366" text-anchor="middle" class="m tag">P-101</text>
+
+  <!-- R-101 stirred tank -->
+  <rect x="290" y="228" width="20" height="12" fill="#0f1f26" stroke="#8fd3d1" stroke-width="1.5"/>
+  <g clip-path="url(#vessel)">
+    <rect x="262" y="250" width="76" height="110" fill="#0f1f26"/>
+    <g>
+      <path d="M200 290 Q215 284 230 290 T260 290 T290 290 T320 290 T350 290 T380 290 T410 290 V370 H200 Z" fill="url(#liquid)"/>
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-60 0" dur="2.4s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <rect x="262" y="250" width="76" height="110" rx="22" fill="none" stroke="#8fd3d1" stroke-width="2"/>
+  <line x1="300" y1="240" x2="300" y2="330" stroke="#eef4f3" stroke-width="2"/>
+  <rect x="285" y="326" width="30" height="5" rx="2" fill="#eef4f3">
+    <animate attributeName="width" values="30;3;30" dur="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="285;298.5;285" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="289" y="302" width="22" height="4" rx="2" fill="#eef4f3" opacity="0.7">
+    <animate attributeName="width" values="3;22;3" dur="0.8s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="298.5;289;298.5" dur="0.8s" repeatCount="indefinite"/>
+  </rect>
+  <text x="300" y="380" text-anchor="middle" class="m tag">R-101</text>
+
+  <!-- E-101 heat exchanger -->
+  <circle cx="450" cy="345" r="28" class="eq"/>
+  <path d="M424 345 L434 333 L444 357 L456 333 L466 357 L476 345" fill="none" stroke="#e08a4b" stroke-width="2" stroke-linejoin="round"/>
+  <text x="450" y="386" text-anchor="middle" class="m tag">E-101</text>
+
+  <!-- T-101 column -->
+  <g clip-path="url(#col)">
+    <rect x="585" y="236" width="50" height="140" fill="#0f1f26"/>
+    <g stroke="#3b5964" stroke-width="2">
+      <line x1="585" y1="262" x2="622" y2="262"/>
+      <line x1="598" y1="286" x2="635" y2="286"/>
+      <line x1="585" y1="310" x2="622" y2="310"/>
+      <line x1="598" y1="334" x2="635" y2="334"/>
+      <line x1="585" y1="358" x2="622" y2="358"/>
+    </g>
+    <g fill="#8fd3d1">
+      <circle cx="600" cy="372" r="2.5"><animate attributeName="cy" from="372" to="240" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.6s" repeatCount="indefinite"/></circle>
+      <circle cx="612" cy="372" r="2"><animate attributeName="cy" from="372" to="240" dur="2.2s" begin="0.7s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.2s" begin="0.7s" repeatCount="indefinite"/></circle>
+      <circle cx="624" cy="372" r="2.5"><animate attributeName="cy" from="372" to="240" dur="3s" begin="1.3s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="3s" begin="1.3s" repeatCount="indefinite"/></circle>
+      <circle cx="606" cy="372" r="1.8"><animate attributeName="cy" from="372" to="240" dur="2.4s" begin="1.9s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" dur="2.4s" begin="1.9s" repeatCount="indefinite"/></circle>
+    </g>
+  </g>
+  <rect x="585" y="236" width="50" height="140" rx="20" fill="none" stroke="#8fd3d1" stroke-width="2"/>
+  <text x="660" y="352" class="m tag">T-101</text>
+
+  <!-- stream number diamonds -->
+  <g class="m" font-size="9" fill="#0a1418" text-anchor="middle" font-weight="700">
+    <path d="M90 322 l8 8 l-8 8 l-8 -8 Z" fill="#e08a4b"/><text x="90" y="333">1</text>
+    <path d="M380 337 l8 8 l-8 8 l-8 -8 Z" fill="#e08a4b"/><text x="380" y="348">2</text>
+    <path d="M520 337 l8 8 l-8 8 l-8 -8 Z" fill="#e08a4b"/><text x="520" y="348">3</text>
+    <path d="M760 292 l8 8 l-8 8 l-8 -8 Z" fill="#8fd3d1"/><text x="760" y="303">4</text>
+  </g>
+
+  <!-- TI-201 trend display -->
+  <rect x="800" y="236" width="360" height="140" rx="6" fill="#0c1a20" stroke="#2c4650"/>
+  <text x="814" y="256" class="m tag">TI-201</text>
+  <text x="1146" y="256" text-anchor="end" class="m sub">CONVERSION vs RESIDENCE TIME</text>
+  <line x1="826" y1="360" x2="1140" y2="360" stroke="#2c4650"/>
+  <line x1="826" y1="270" x2="826" y2="360" stroke="#2c4650"/>
+  <g stroke="#1b323b" stroke-dasharray="2 4">
+    <line x1="826" y1="285" x2="1140" y2="285"/>
+    <line x1="826" y1="322" x2="1140" y2="322"/>
+  </g>
+  <path d="M826 360 C 860 300, 900 288, 960 284 S 1080 278, 1140 277" fill="none" stroke="#8fd3d1" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="340" stroke-dashoffset="340">
+    <animate attributeName="stroke-dashoffset" values="340;0;0;340" keyTimes="0;0.55;0.9;1" dur="7s" repeatCount="indefinite"/>
+  </path>
+</svg>
