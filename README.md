@@ -4,7 +4,7 @@
 -->
 
 <p align="center">
-  <img src="assets/header.svg" width="100%" alt="Genevieve Morales, Chemical Engineering at UC Berkeley" />
+  <img src="header.svg" width="100%" alt="Genevieve Morales, Chemical Engineering at UC Berkeley" />
 </p>
 
 <p align="center">
@@ -21,7 +21,7 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 
 **Currently seeking:** Spring 2027 undergraduate research and Summer 2027 internships in process or chemical engineering.
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Projects
 
@@ -35,7 +35,7 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 | **Biodiesel Process Flowsheet** | Reactor, methanol recovery, and glycerol separation modeled in Aspen Plus | Aspen Plus | ![planned](https://img.shields.io/badge/planned-3b5964?style=flat-square) |
 | **Residence-Time Distribution Experiment** | Bench-scale stirred tank with a 3D-printed Arduino colorimeter to measure RTD | SolidWorks · Arduino · Python | ![planned](https://img.shields.io/badge/planned-3b5964?style=flat-square) |
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Featured Project: Mycoplasma qPCR Screen
 
@@ -49,7 +49,7 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 
 **[View the repository →](https://github.com/genevievenm13/mycoplasma-qpcr-screen)**
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Skills
 
@@ -81,7 +81,7 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 ![Aspen Plus](https://img.shields.io/badge/Aspen_Plus-3b5964?style=flat-square)
 ![Process control](https://img.shields.io/badge/Process_control-3b5964?style=flat-square)
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Experience
 
@@ -91,7 +91,7 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 | Aug 2026 – Present | **Publicity Chair** | Theta Tau Professional Engineering Fraternity, Epsilon Chapter |
 | Feb 2026 – May 2026 | **3D Printing Instructor** | Digital Dreamers STEAM Academy |
 
-<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
+<p align="center"><img src="divider.svg" width="100%" alt="" /></p>
 
 ## Contact
 
@@ -99,5 +99,5 @@ I'm always happy to talk about research, internships, or projects.<br>
 📧 genevievenm13@berkeley.edu · [LinkedIn](https://www.linkedin.com/in/genevieve-morales-a5aa573a4/)
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="" />
+  <img src="footer.svg" width="100%" alt="" />
 </p>
