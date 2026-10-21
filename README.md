@@ -28,8 +28,8 @@ I work as a lab assistant in the **Kumar Lab**, supporting animal cell culture r
 | Project | Description | Tools | Status |
 |---|---|---|:---:|
 | **[Mycoplasma qPCR Screen](https://github.com/genevievenm13/mycoplasma-qpcr-screen)** | Contamination screen of two cell-culture samples, with a Python melt-curve analysis pipeline | qPCR · Python · pandas · SciPy | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
-| **Biodiesel Reaction Optimization** | Transesterification yield as a function of catalyst loading and methanol-to-oil ratio | Wet lab · yield analysis | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
-| **Acetaminophen Degradation (HPLC)** | Four-week degradation study across storage environments | HPLC · kinetics | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
+| **Biodiesel Production Optimization** | Self-directed 3×3 factorial study of NaOH catalyst loading (0.3–0.7 g) and methanol volume (20–60 mL) in transesterification of waste cooking oil; identified methanol-limited and soap-forming regimes | Factorial design · transesterification | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
+| **[Acetaminophen Stability by HPLC](https://github.com/genevievenm13/acetaminophen-hplc-stability)** | Four-week study of acetaminophen under heat, UV light, and combined stress, quantified against an HPLC calibration curve; apparent rise in light-exposed samples traced to solvent evaporation | HPLC · UV/Vis · calibration | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
 | **[Smart Sorting Trash Can](https://smartbin.johnsonto.com/index.html#build)** | 14-person team build of an automated recycling/waste sorter (IR sensor + camera → ResNet50 classifier → servo-tilted platform).<br><sub>My role: cleaning-solution and fragrance formulation, SolidWorks CAD, assembly, system testing, project website</sub> | SolidWorks · Raspberry Pi · ResNet50 | ![complete](https://img.shields.io/badge/complete-1f7a3a?style=flat-square) |
 | **Reactor Design in Python** | Batch, CSTR, and PFR models for biodiesel transesterification, including a non-isothermal PFR | Python · SciPy | ![in progress](https://img.shields.io/badge/in_progress-b26a00?style=flat-square) |
 | **Biodiesel Process Flowsheet** | Reactor, methanol recovery, and glycerol separation modeled in Aspen Plus | Aspen Plus | ![planned](https://img.shields.io/badge/planned-3b5964?style=flat-square) |
@@ -101,3 +101,4 @@ I'm always happy to talk about research, internships, or projects.<br>
 <p align="center">
   <img src="footer.svg" width="100%" alt="" />
 </p>
+
